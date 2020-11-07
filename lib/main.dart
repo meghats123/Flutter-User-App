@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
               RaisedButton(onPressed: (){
                 
               },
-                color: Colors.amber,
+                color: Colors.red,
                 child: Text("REGISTER"),
               )
             ],
