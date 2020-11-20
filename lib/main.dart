@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("User App"),
+          title: Text("Login Screen"),
           backgroundColor: Colors.amber,
         ),
         body: CheckApp(),

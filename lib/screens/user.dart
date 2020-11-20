@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:user_app/screens/Register.dart';
+
 
 
 class CheckApp extends StatefulWidget {
@@ -46,6 +48,7 @@ class _CheckAppState extends State<CheckApp> {
           ),
           SizedBox(height: 10.0,),
           RaisedButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Register()));
 
           },
             color: Colors.red,
